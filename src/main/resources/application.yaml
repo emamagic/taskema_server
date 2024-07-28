@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: taskema
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: 54321728
+    url: jdbc:postgresql://localhost:5432/users
+
+#logging:
+#  level:
+#    org.springframework.security: TRACE
